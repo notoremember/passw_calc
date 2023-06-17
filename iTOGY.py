@@ -1,7 +1,6 @@
 import random
 import string
 import re
-
 def generate_password(length, uppercase, digits, special_chars):
     # Составляем строку символов, из которых будет генерироваться пароль
     charset = string.ascii_lowercase
@@ -39,3 +38,4 @@ if __name__ == '__main__':
     # Генерируем пароль и выводим его на экран
     password = generate_password(length, uppercase, digits, special_chars)
     print(f'Сгенерированный пароль: {password}')
+print("goodbye")
